@@ -202,9 +202,9 @@ input {
   .mobile-nav {
     display: block;
     z-index: 100;
-    background-color: transparent;
+    background-color: black;
     border: none;
-    background: url("../assets/images/icon-menu.svg");
+    background: url("./assets/images/icon-menu.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -212,7 +212,7 @@ input {
     height: 31px;
   }
   .mobile-nav[data-open="true"] {
-    background: url("../assets/images/icon-menu-close.svg");
+    background: url("./assets/images/icon-menu-close.svg");
   }
   .navigation {
     position: fixed;
